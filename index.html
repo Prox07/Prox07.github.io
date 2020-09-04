@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>FNS.Blaga</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="img/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+   .light {
+    text-shadow: #5dc8e5 0 0 10px; /* Свечение голубого цвета */
+    color: #0083bd;
+   }
+	</style>
+	<body>
+		<header>
+			<ul>
+			<li id="logo"><a href="index.html"><img src="img/logo.png" alt="Nalog" id="p1"></a></li>
+			</ul>
+			<ul class="nav">
+			<li><a href="#Nalogi">Федеральная <br>налоговая служба</a></li>
+			<div id="bobo">
+				<li><a href="#Info">О нас</a></li>
+			<li><a href="#Contakt">Контакты</a></li>
+			<li>
+				Телефон: 8-800-222-22-22
+		</li>
+	</div>
+			</ul>
+		</header>
+		<div id="use">
+		</div>
+
+		<div class="Nalogi" id="Nalogi">
+			<div id="van">
+			Об уплате имущественных налогов
+				 <video src="img/rol.mp4" controls="controls">
+				</video>
+		</div>
+		<div class="Info" id="Info">
+			<h1>О нас</h1>
+			Федеральная налоговая служба (ФНС России) является федеральным органом исполнительной власти,
+			осуществляющим функции по контролю и надзору за соблюдением законодательства о налогах и сборах,
+			за правильностью исчисления, полнотой и своевременностью внесения в соответствующий бюджет налогов,
+			сборов и страховых взносов, в случаях, предусмотренных законодательством Российской Федерации,
+			за правильностью исчисления, полнотой и своевременностью внесения в соответствующий бюджет иных обязательных платежей,
+			за производством и оборотом табачной продукции, за применением контрольно-кассовой техники,
+			а также функции органа валютного контроля в пределах компетенции налоговых органов.
+		</div>
+		<div id="informachka">
+		Посетите наш официальный сайт <a href="https://www.nalog.ru/rn28/">Nalog.ru</a> <br>
+	  На эти и другие вопросы вы сможете подробно узнать там. <br>
+		<div id="ili">
+	 "Что такое личный кабинет?" <br>
+	 "Как получить к нему доступ?"<br>
+  "Как стать плательщиком налога для самозанятых граждан?"<br>
+</div>
+	</div>
+	</div>
+
+		<div class="Contakt" id="Contakt">
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2550.2308130916786!2d127.52476571610967!3d50.26894877945067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5e894106e242a3e5%3A0xbee0aaba2bc21a9d!2sUlitsa%20Krasnoarmeyskaya%2C%20122%2C%20Blagoveshchensk%2C%20Amurskaya%20oblast&#39;%2C%20675011!5e0!3m2!1sen!2sru!4v1599026733429!5m2!1sen!2sru" width="100%" height="440px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+		<script>
+			const anchors = document.querySelectorAll('a[href*="#"]')
+
+	for (let anchor of anchors) {
+	  anchor.addEventListener('click', function (e) {
+	    e.preventDefault()
+
+	    const blockID = anchor.getAttribute('href').substr(1)
+
+	    document.getElementById(blockID).scrollIntoView({
+	      behavior: 'smooth',
+	      block: 'start'
+	    })
+	  })
+	}
+		</script>
+	</body>
+</html>

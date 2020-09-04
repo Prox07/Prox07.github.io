@@ -1,0 +1,129 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  outline: none;
+	font-family: Arial;
+
+}
+
+body{
+  font-family: Arial;
+background-image: url(../img/1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.container
+{
+	height: 100px;
+}
+header{
+  position: fixed;
+  	width: 100%;
+	border: 5px solid #3771ef ;
+	height: 90px;
+	border-radius: 10px;
+	background-color:#3771ef ;
+  z-index: 2;
+}
+#p1{
+	margin-left: -250px;
+	margin-top: 10px;
+	height: 90px;
+}
+header ul {
+	width: 70%;
+	margin: 0 auto;
+	margin-bottom: -75px;
+}
+a{
+  	text-decoration: none;
+}
+header a{
+	color: #a4002a;
+  text-decoration: underline;
+}
+header li {
+
+  color: #FFFFFF;
+	font-size: 30px;
+	font-weight: 550;
+	list-style-type: none;
+	display: inline-block;
+	text-align: left;
+	padding-right: 9%;
+  margin-top: -11px;
+}
+#bobo{
+  margin-left: 30%;
+  margin-top: -40px;
+
+}
+
+#use{
+  padding-top: 130px;
+}
+.Nalogi{
+  position: relative;
+	border: 5px solid #3771ef ;
+	height: 1400px;
+	margin-left:200px;
+	margin-right:200px;
+	margin-top: 5px;
+	border-radius: 6%;
+	background-color: #FFFFFF;
+
+
+}
+#van{
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 44px;
+  padding-top: 5px;
+  text-align: center;
+}
+video{
+  padding-top: 10px;
+  width: 99%;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+h1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.Info{
+  color: #FFFFFF;
+  background-color: #a4002a;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  font-size: 24px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#informachka{
+  margin-top: 30px;
+  border-radius: 20px;
+  font-size: 24px;
+  color: #FFFFFF;
+  background-color: #53aee3;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px 5px 5px 5px;
+
+}
+#informachka a{
+  color: #d12954;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#ili{
+  margin-left: 30px;
+}
